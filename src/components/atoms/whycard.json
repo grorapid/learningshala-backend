@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_atoms_whycards",
+  "info": {
+    "displayName": "whycard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.long-text-typography"
+    },
+    "long_description": {
+      "type": "text"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.features"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_course_testimonials",
+  "info": {
+    "singularName": "sk-course-testimonial",
+    "pluralName": "sk-course-testimonials",
+    "displayName": "Course Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sk_course_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-type.sk-course-type",
+      "inversedBy": "sk_course_testimonials"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.testimonial-card-text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

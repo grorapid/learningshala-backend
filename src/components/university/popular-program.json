@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_popular_program",
+  "info": {
+    "displayName": "popular-program"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

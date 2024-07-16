@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_university_partners",
+  "info": {
+    "singularName": "sk-university-partner",
+    "pluralName": "sk-university-partners",
+    "displayName": "University partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo_url": {
+      "type": "string"
+    }
+  }
+}

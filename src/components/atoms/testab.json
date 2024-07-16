@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_atoms_testabs",
+  "info": {
+    "displayName": "testab"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_admission_data",
+  "info": {
+    "displayName": "admission_data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "No_of_courses": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "dates_events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.key-pair"
+    },
+    "course_eligibility": {
+      "displayName": "course_eligibility",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.course-eligibility"
+    },
+    "seats": {
+      "type": "integer"
+    }
+  }
+}

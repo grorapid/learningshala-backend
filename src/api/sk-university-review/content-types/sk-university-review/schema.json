@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_university_reviews",
+  "info": {
+    "singularName": "sk-university-review",
+    "pluralName": "sk-university-reviews",
+    "displayName": "University Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reviewer_name": {
+      "type": "string"
+    },
+    "reviewer_email": {
+      "type": "string"
+    },
+    "review_text": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

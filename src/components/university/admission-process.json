@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_university_admission_processes",
+  "info": {
+    "displayName": "admissionProcess",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

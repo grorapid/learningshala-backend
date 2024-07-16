@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_mol_footer_explore_sections",
+  "info": {
+    "displayName": "footer_explore_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.link"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    }
+  }
+}

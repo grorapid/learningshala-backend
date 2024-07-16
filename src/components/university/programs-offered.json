@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_programs_offereds",
+  "info": {
+    "displayName": "programs-offered"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

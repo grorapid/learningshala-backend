@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_university_articles",
+  "info": {
+    "singularName": "sk-university-article",
+    "pluralName": "sk-university-articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "readtime": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "toparticle": {
+      "type": "boolean"
+    },
+    "sk_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-course.sk-university-course",
+      "mappedBy": "sk_university_article"
+    },
+    "sk_course_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-type.sk-course-type",
+      "inversedBy": "sk_university_articles"
+    },
+    "sk_course_program": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-program.sk-course-program",
+      "inversedBy": "sk_university_articles"
+    },
+    "university": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university",
+      "inversedBy": "sk_university_articles"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta-title.seo"
+    },
+    "shortDescription": {
+      "type": "string"
+    }
+  }
+}

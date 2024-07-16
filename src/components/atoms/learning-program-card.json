@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_atoms_learning_program_cards",
+  "info": {
+    "displayName": "Program-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sk_course_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-course-type.sk-course-type"
+    }
+  }
+}

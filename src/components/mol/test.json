@@ -1,0 +1,95 @@
+{
+  "collectionName": "components_mol_tests",
+  "info": {
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    },
+    "backgroundTheme": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light"
+      ],
+      "default": "light"
+    },
+    "showPrimaryButton": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "showSecondaryButton": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "primaryButtonLink": {
+      "type": "string"
+    },
+    "secondaryButtonLink": {
+      "type": "string"
+    },
+    "secondaryButtonType": {
+      "type": "enumeration",
+      "enum": [
+        "contained",
+        "outlined",
+        "text"
+      ],
+      "default": "outlined"
+    },
+    "primaryButtonType": {
+      "type": "enumeration",
+      "enum": [
+        "contained",
+        "outlined",
+        "text"
+      ]
+    },
+    "rightPaneImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

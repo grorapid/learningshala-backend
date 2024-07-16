@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_addmisionprocesses",
+  "info": {
+    "displayName": "Addmisionprocess"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

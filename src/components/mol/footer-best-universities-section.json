@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_mol_footer_best_universities_sections",
+  "info": {
+    "displayName": "footer_best_universities_section"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.link"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    }
+  }
+}

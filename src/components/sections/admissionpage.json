@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_admissionpages",
+  "info": {
+    "displayName": "Admissionpage"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "admission_process": {
+      "displayName": "Admission_process",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.admission-process"
+    },
+    "eligibility_selection": {
+      "displayName": "Eligibilty_Selection",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.eligibilty-selection"
+    }
+  }
+}

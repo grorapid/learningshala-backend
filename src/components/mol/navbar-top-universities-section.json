@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mol_navbar_top_universities_sections",
+  "info": {
+    "displayName": "navbar_top_universities_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.link"
+    }
+  }
+}

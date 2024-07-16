@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_course_admissions",
+  "info": {
+    "displayName": "course_admission"
+  },
+  "options": {},
+  "attributes": {
+    "dfr": {
+      "type": "string"
+    }
+  }
+}

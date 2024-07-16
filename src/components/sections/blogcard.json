@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_blogcards",
+  "info": {
+    "displayName": "blogcard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "readtime": {
+      "type": "string"
+    },
+    "publisheddate": {
+      "type": "date"
+    },
+    "likes": {
+      "type": "string"
+    }
+  }
+}

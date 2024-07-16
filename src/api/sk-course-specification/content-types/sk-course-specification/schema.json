@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_course_specifications",
+  "info": {
+    "singularName": "sk-course-specification",
+    "pluralName": "sk-course-specifications",
+    "displayName": "Specailization Page (Course Specialization)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "sk_course_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-type.sk-course-type",
+      "inversedBy": "sk_course_specializations"
+    },
+    "sk_course_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sk-course-program.sk-course-program"
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "atoms.slider123",
+        "atoms.page-content"
+      ]
+    },
+    "sk_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-course.sk-university-course",
+      "mappedBy": "sk_course_specification"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_scolarships",
+  "info": {
+    "displayName": "scolarship"
+  },
+  "options": {},
+  "attributes": {
+    "scholarship_name": {
+      "type": "string"
+    },
+    "deadline": {
+      "type": "date"
+    }
+  }
+}

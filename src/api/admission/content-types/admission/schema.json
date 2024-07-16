@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admissions",
+  "info": {
+    "singularName": "admission",
+    "pluralName": "admissions",
+    "displayName": "Admission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "admissionprocess_heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "university": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::university.university",
+      "inversedBy": "admission_data"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "year": {
+      "type": "integer"
+    },
+    "faq_admission": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course.course-faq"
+    },
+    "whatsnew": {
+      "type": "richtext"
+    }
+  }
+}

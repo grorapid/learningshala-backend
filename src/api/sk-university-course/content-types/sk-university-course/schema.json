@@ -1,0 +1,246 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_university_courses",
+  "info": {
+    "singularName": "sk-university-course",
+    "pluralName": "sk-university-courses",
+    "displayName": "University Course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sk_course_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sk-course-type.sk-course-type"
+    },
+    "sk_course_specification": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-specification.sk-course-specification",
+      "inversedBy": "sk_courses"
+    },
+    "about_course": {
+      "displayName": "course_banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "course.course-banner"
+    },
+    "learnings": {
+      "displayName": "learnings",
+      "type": "component",
+      "repeatable": true,
+      "component": "course.learnings"
+    },
+    "skills_section": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "course.skills"
+    },
+    "syllabus": {
+      "displayName": "syllabus",
+      "type": "component",
+      "repeatable": false,
+      "component": "course.syllabus"
+    },
+    "job_roles": {
+      "displayName": "job_roles",
+      "type": "component",
+      "repeatable": true,
+      "component": "course.job-roles"
+    },
+    "admissionProcess": {
+      "displayName": "admission_process",
+      "type": "component",
+      "repeatable": false,
+      "component": "course.admission-process"
+    },
+    "faq": {
+      "displayName": "course_faq",
+      "type": "component",
+      "repeatable": true,
+      "component": "course.course-faq"
+    },
+    "show_scholarship_banner": {
+      "type": "boolean"
+    },
+    "uuid": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "sk_university_fee": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sk-university-fee.sk-university-fee",
+      "inversedBy": "sk_course"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "isTopCourse": {
+      "type": "boolean"
+    },
+    "topCourseRank": {
+      "type": "integer"
+    },
+    "courseRating": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "college_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bg_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "breadcrumbs": {
+      "type": "json"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "NAAC_Score": {
+      "type": "string"
+    },
+    "learners_enrolled": {
+      "type": "string"
+    },
+    "sk_course_program": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-program.sk-course-program",
+      "inversedBy": "sk_courses"
+    },
+    "sk_university_article": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-university-article.sk-university-article",
+      "inversedBy": "sk_courses"
+    },
+    "shortform": {
+      "type": "string"
+    },
+    "approvals": {
+      "type": "string"
+    },
+    "eligibility": {
+      "type": "string"
+    },
+    "credit_points": {
+      "type": "integer"
+    },
+    "education_mode": {
+      "type": "string"
+    },
+    "exam_pattern": {
+      "type": "string"
+    },
+    "industry_ready": {
+      "type": "string"
+    },
+    "online_class": {
+      "type": "string"
+    },
+    "placement_assistance": {
+      "type": "string"
+    },
+    "pros": {
+      "type": "string"
+    },
+    "nirf_ranking": {
+      "type": "string"
+    },
+    "wes_approval": {
+      "type": "string"
+    },
+    "emi_facility": {
+      "type": "string"
+    },
+    "admission_data": {
+      "displayName": "admission_data",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.admission-data"
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tag.tag",
+      "inversedBy": "sk_courses"
+    },
+    "exam_accepted": {
+      "type": "string"
+    },
+    "university": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university",
+      "inversedBy": "sk_courses"
+    },
+    "expert": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::expert.expert",
+      "inversedBy": "sk_courses"
+    },
+    "learners_experience": {
+      "displayName": "learner_experience",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.learner-experience"
+    },
+    "Brochure": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "durationUnit": {
+      "type": "enumeration",
+      "enum": [
+        "year",
+        "years",
+        "month",
+        "months"
+      ],
+      "default": "years"
+    },
+    "duration": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_top_programs",
+  "info": {
+    "displayName": "Top_programs"
+  },
+  "options": {},
+  "attributes": {
+    "program": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "specialization": {
+      "type": "string"
+    },
+    "approvals": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "reviews": {
+      "type": "integer"
+    },
+    "fee": {
+      "type": "integer"
+    }
+  }
+}

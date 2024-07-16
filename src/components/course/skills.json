@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_course_skills",
+  "info": {
+    "displayName": "skills",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.key-pair"
+    }
+  }
+}

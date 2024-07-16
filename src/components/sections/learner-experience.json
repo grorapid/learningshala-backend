@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_learner_experiences",
+  "info": {
+    "displayName": "learner_experience"
+  },
+  "options": {},
+  "attributes": {
+    "learners": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.details"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_mol_testimonial_cards_text_sections",
+  "info": {
+    "displayName": "testimonial_video_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.testimonial-card-video"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    }
+  }
+}

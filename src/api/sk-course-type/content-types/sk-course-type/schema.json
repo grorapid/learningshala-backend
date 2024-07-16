@@ -1,0 +1,125 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_course_types",
+  "info": {
+    "singularName": "sk-course-type",
+    "pluralName": "sk-course-types",
+    "displayName": "Generic Course (Course Type)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sk_course_program": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sk-course-program.sk-course-program",
+      "inversedBy": "sk_course_types"
+    },
+    "isTopCourseType": {
+      "type": "boolean"
+    },
+    "topCourseTypeRank": {
+      "type": "integer"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "courseTypeRating": {
+      "max": 5,
+      "min": 1,
+      "type": "integer"
+    },
+    "sk_course_specializations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-course-specification.sk-course-specification",
+      "mappedBy": "sk_course_type"
+    },
+    "bgimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sk_university_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-article.sk-university-article",
+      "mappedBy": "sk_course_type"
+    },
+    "sk_course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sk-university-course.sk-university-course"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "exam_accepted": {
+      "type": "string"
+    },
+    "no_of_course": {
+      "type": "integer"
+    },
+    "reviews": {
+      "type": "integer"
+    },
+    "sk_university_fee": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sk-university-fee.sk-university-fee"
+    },
+    "admission_data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.admission-data"
+    },
+    "duration": {
+      "type": "integer",
+      "default": 1,
+      "required": true
+    },
+    "eligibility": {
+      "type": "string"
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "atoms.page-content",
+        "atoms.slider123"
+      ]
+    },
+    "durationUnit": {
+      "type": "enumeration",
+      "enum": [
+        "year",
+        "years",
+        "month",
+        "months"
+      ],
+      "default": "year",
+      "required": false
+    },
+    "sk_course_testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-course-testimonial.sk-course-testimonial",
+      "mappedBy": "sk_course_type"
+    }
+  }
+}

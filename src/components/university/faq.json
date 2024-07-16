@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_university_faqs",
+  "info": {
+    "displayName": "faq"
+  },
+  "options": {},
+  "attributes": {
+    "university_faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.key-pair"
+    }
+  }
+}

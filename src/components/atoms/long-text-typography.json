@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_atoms_long_text_typographies",
+  "info": {
+    "displayName": "LongTextTypography",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "p",
+        "div"
+      ],
+      "default": "div"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "body1",
+        "body2"
+      ],
+      "default": "body1"
+    }
+  }
+}

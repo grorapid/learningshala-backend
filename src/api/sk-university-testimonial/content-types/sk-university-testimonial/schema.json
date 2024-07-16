@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_university_testimonials",
+  "info": {
+    "singularName": "sk-university-testimonial",
+    "pluralName": "sk-university-testimonials",
+    "displayName": "University Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "university": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university",
+      "inversedBy": "sk_university_testimonials"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.testimonial-card-text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mol_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "explore_links": {
+      "displayName": "explore",
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.explore"
+    }
+  }
+}

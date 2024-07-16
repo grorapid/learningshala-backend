@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_details",
+  "info": {
+    "displayName": "details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "specialization": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

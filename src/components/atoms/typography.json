@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_atoms_typographies",
+  "info": {
+    "displayName": "Typography",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "p",
+        "div",
+        "span"
+      ],
+      "default": "div"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "body1",
+        "body2",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "default": "body1"
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "inherit",
+        "justify",
+        "left",
+        "right"
+      ],
+      "default": "inherit"
+    }
+  }
+}

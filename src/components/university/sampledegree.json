@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_sampledegrees",
+  "info": {
+    "displayName": "sampledegree"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

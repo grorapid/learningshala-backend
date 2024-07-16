@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_atoms_navigations",
+  "info": {
+    "displayName": "navigation"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mol_exam_patterns",
+  "info": {
+    "displayName": "examPattern",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "coursePatternLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.key-pair"
+    }
+  }
+}

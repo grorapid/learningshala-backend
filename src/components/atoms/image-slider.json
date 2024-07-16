@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_atoms_image_sliders",
+  "info": {
+    "displayName": "image_slider"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    }
+  }
+}

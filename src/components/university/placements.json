@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_placements",
+  "info": {
+    "displayName": "placements"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

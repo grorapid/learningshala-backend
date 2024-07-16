@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_latest_updates",
+  "info": {
+    "displayName": "latest_update"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

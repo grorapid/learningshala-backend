@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_slider123s",
+  "info": {
+    "displayName": "slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "displayName": "test",
+      "type": "component",
+      "repeatable": true,
+      "component": "mol.test"
+    }
+  }
+}

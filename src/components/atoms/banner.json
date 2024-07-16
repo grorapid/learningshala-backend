@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_atoms_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

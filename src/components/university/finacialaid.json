@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_finacialaids",
+  "info": {
+    "displayName": "finacialaid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

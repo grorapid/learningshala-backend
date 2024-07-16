@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_talk_to_experts",
+  "info": {
+    "displayName": "talk-to-expert"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_buttons_media_buttons",
+  "info": {
+    "displayName": "button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "container",
+        "text",
+        "outlined"
+      ]
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "iconPlacement": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "end"
+      ],
+      "default": "end"
+    }
+  }
+}

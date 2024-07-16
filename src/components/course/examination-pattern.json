@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_course_examination_patterns",
+  "info": {
+    "displayName": "examination_pattern"
+  },
+  "options": {},
+  "attributes": {
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course.admission-steps"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

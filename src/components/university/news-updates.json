@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_news_updates",
+  "info": {
+    "displayName": "newsUpdates"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

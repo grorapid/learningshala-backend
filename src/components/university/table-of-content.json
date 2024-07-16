@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_university_table_of_contents",
+  "info": {
+    "displayName": "tableOfContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_of_content": {
+      "type": "richtext"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.key-pair"
+    }
+  }
+}

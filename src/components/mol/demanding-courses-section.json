@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_mol_demanding_courses_sections",
+  "info": {
+    "displayName": "DemandingCoursesSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    },
+    "sk_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-course.sk-university-course"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universities",
+  "info": {
+    "singularName": "university",
+    "pluralName": "universities",
+    "displayName": "University",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rankTitle": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
+    },
+    "reviewsCount": {
+      "type": "integer"
+    },
+    "aboutUniversity": {
+      "type": "richtext"
+    },
+    "approvers": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "financialAid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.financialaids"
+    },
+    "sampleCertificate": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "admissionProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "course.admission-process"
+    },
+    "examinationPattern": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mol.exam-pattern"
+    },
+    "placementStats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.sk-university-placement-stats"
+    },
+    "sk_university_testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-testimonial.sk-university-testimonial",
+      "mappedBy": "university"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "topuniversity": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "admission_data": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::admission.admission",
+      "mappedBy": "university"
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tag.tag",
+      "inversedBy": "universities"
+    },
+    "sk_course_programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-course-program.sk-course-program",
+      "mappedBy": "university"
+    },
+    "sk_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-course.sk-university-course",
+      "mappedBy": "university"
+    },
+    "sk_course_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-course-type.sk-course-type"
+    },
+    "extraNavigationItems": {
+      "type": "dynamiczone",
+      "components": [
+        "atoms.university-navigation"
+      ],
+      "max": 5
+    },
+    "Categories": {
+      "displayName": "Categories",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.categories"
+    },
+    "sk_university_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-article.sk-university-article",
+      "mappedBy": "university"
+    },
+    "expert": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::expert.expert",
+      "inversedBy": "universities"
+    },
+    "card_banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "university.navigation",
+        "university.about-us",
+        "university.news-updates",
+        "university.table-of-content",
+        "university.admission-process",
+        "university.placements",
+        "university.fees",
+        "university.program-offered",
+        "university.finacialaid",
+        "university.sampledegree",
+        "university.exampattern",
+        "university.talk-to-expert",
+        "university.testimonial",
+        "university.explore-by-categories",
+        "university.popular-program",
+        "university.banneruniversity",
+        "university.scolarship",
+        "university.othercolleges",
+        "university.latest-update",
+        "university.faq"
+      ]
+    },
+    "topUniversityRank": {
+      "type": "integer",
+      "max": 10
+    },
+    "latest_updates": {
+      "type": "richtext"
+    },
+    "course_fees": {
+      "type": "richtext"
+    },
+    "facilities_university": {
+      "type": "richtext"
+    },
+    "latest_update_date": {
+      "type": "date"
+    }
+  }
+}

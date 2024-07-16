@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_mol_top_learning_program_sections",
+  "info": {
+    "displayName": "top_learning_program_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.learning-program-card"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button"
+    }
+  }
+}

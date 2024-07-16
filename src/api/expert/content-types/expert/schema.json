@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experts",
+  "info": {
+    "singularName": "expert",
+    "pluralName": "experts",
+    "displayName": "Experts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "expert": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.expert-card"
+    },
+    "universities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::university.university",
+      "mappedBy": "expert"
+    },
+    "sk_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-course.sk-university-course",
+      "mappedBy": "expert"
+    }
+  }
+}

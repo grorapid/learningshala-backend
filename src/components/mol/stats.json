@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_mol_stats",
+  "info": {
+    "displayName": "stats"
+  },
+  "options": {},
+  "attributes": {
+    "noOfPromotions": {
+      "type": "string"
+    },
+    "noOfPlacements": {
+      "type": "string"
+    },
+    "featured": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

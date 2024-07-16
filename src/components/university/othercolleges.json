@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_othercolleges",
+  "info": {
+    "displayName": "othercolleges"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_syllabi",
+  "info": {
+    "displayName": "syllabus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rating_star": {
+      "type": "integer"
+    },
+    "rating_percent": {
+      "type": "integer"
+    },
+    "rating_num": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_fees",
+  "info": {
+    "displayName": "fees"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

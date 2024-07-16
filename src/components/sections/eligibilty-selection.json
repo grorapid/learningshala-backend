@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_eligibilty_selections",
+  "info": {
+    "displayName": "Eligibilty_Selection"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

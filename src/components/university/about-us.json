@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_about_uses",
+  "info": {
+    "displayName": "about_us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

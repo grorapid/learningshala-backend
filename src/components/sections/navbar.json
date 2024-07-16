@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_sections_navbars",
+  "info": {
+    "displayName": "navbar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "programs": {
+      "displayName": "programs",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.programs"
+    },
+    "universities": {
+      "displayName": "universities",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.universities"
+    },
+    "resources": {
+      "displayName": "resources",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.resources"
+    }
+  }
+}

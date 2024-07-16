@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_course_course_banners",
+  "info": {
+    "displayName": "course_banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "course_highlights": {
+      "displayName": "course_attributes",
+      "type": "component",
+      "repeatable": true,
+      "component": "course.course-attributes"
+    },
+    "long_description": {
+      "type": "richtext"
+    },
+    "short_description": {
+      "type": "richtext"
+    },
+    "views": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_toparticles",
+  "info": {
+    "displayName": "Toparticles"
+  },
+  "options": {},
+  "attributes": {
+    "toparticleimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "publishdate": {
+      "type": "date"
+    },
+    "likes": {
+      "type": "integer"
+    },
+    "readtime": {
+      "type": "string"
+    }
+  }
+}

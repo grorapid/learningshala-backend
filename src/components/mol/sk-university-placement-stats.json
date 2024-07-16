@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_mol_sk_university_placement_stats",
+  "info": {
+    "displayName": "sk_university_placement_stats",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.key-pair"
+    },
+    "No_of_recruiters": {
+      "type": "string"
+    },
+    "Promotion_recieved": {
+      "type": "string"
+    },
+    "Student_placed": {
+      "type": "string"
+    },
+    "placement_partners": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "placement_richtext": {
+      "type": "richtext"
+    }
+  }
+}

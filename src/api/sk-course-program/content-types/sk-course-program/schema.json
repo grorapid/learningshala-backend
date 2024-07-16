@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_course_programs",
+  "info": {
+    "singularName": "sk-course-program",
+    "pluralName": "sk-course-programs",
+    "displayName": "Programs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "uid"
+    },
+    "sk_course_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-course-type.sk-course-type",
+      "mappedBy": "sk_course_program"
+    },
+    "sk_courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-course.sk-university-course",
+      "mappedBy": "sk_course_program"
+    },
+    "university": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university",
+      "inversedBy": "sk_course_programs"
+    },
+    "sk_university_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-university-article.sk-university-article",
+      "mappedBy": "sk_course_program"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta-title.seo"
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_explore_section": {
+      "displayName": "footer_explore_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.footer-explore-section"
+    },
+    "footer_reserach_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.footer-reserach-section"
+    },
+    "footer_best_universities_section": {
+      "displayName": "footer_best_universities_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.footer-best-universities-section"
+    },
+    "footer_email": {
+      "type": "string"
+    },
+    "footer_phone_number": {
+      "type": "string"
+    },
+    "footer_address": {
+      "type": "string"
+    },
+    "navbar_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "navbar_popular_courses_section": {
+      "displayName": "navbar_popular_courses_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.navbar-popular-courses-section"
+    },
+    "navbar_top_universities_section": {
+      "displayName": "navbar_top_universities_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.navbar-top-universities-section"
+    },
+    "navbar_resources_section": {
+      "displayName": "navbar_resources_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "mol.navbar-resources-section"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_admission_courses",
+  "info": {
+    "displayName": "admission_course"
+  },
+  "options": {},
+  "attributes": {
+    "no_of_course": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "total_seats": {
+      "type": "string"
+    }
+  }
+}

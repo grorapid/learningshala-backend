@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_course_faqs",
+  "info": {
+    "displayName": "course_faq",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "displayName": "questions",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.questions"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

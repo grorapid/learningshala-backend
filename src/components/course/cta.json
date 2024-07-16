@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_course_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

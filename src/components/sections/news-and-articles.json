@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_news_and_articles",
+  "info": {
+    "displayName": "News&Articles"
+  },
+  "options": {},
+  "attributes": {
+    "newsimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

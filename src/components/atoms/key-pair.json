@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_key_pairs",
+  "info": {
+    "displayName": "key-value-pair",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_course_learnings",
+  "info": {
+    "displayName": "learnings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "learning_text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_atoms_page_contents",
+  "info": {
+    "displayName": "page_content"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

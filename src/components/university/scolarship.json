@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_scolarships",
+  "info": {
+    "displayName": "scolarship"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

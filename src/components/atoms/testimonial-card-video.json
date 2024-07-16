@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_atoms_testimonial_card_videos",
+  "info": {
+    "displayName": "testimonial-card-video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "videolink": {
+      "type": "string"
+    }
+  }
+}

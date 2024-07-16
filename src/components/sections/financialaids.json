@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_financialaids",
+  "info": {
+    "displayName": "Financialaids",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "scolarship": {
+      "displayName": "scolarship",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.scolarship"
+    },
+    "scholarshiptext": {
+      "type": "text"
+    },
+    "loanpartner": {
+      "type": "text"
+    },
+    "loanpartnerslogo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "scholarship_richtext": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_banneruniversities",
+  "info": {
+    "displayName": "banneruniversity"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

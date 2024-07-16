@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mol_navbar_popular_courses_sections",
+  "info": {
+    "displayName": "navbar_popular_courses_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.link"
+    }
+  }
+}

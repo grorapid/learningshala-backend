@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_atoms_course_cards",
+  "info": {
+    "displayName": "Course-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "stats": {
+      "type": "string"
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "compare": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

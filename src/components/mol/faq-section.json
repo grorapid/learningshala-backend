@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_mol_faq_sections",
+  "info": {
+    "displayName": "faq_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.faq"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    }
+  }
+}

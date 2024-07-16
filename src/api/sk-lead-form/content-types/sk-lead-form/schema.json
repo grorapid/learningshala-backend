@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_lead_forms",
+  "info": {
+    "singularName": "sk-lead-form",
+    "pluralName": "sk-lead-forms",
+    "displayName": "Leads",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "uid",
+      "targetField": "mobile_number"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "mobile_number": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "course": {
+      "type": "string"
+    },
+    "course_program": {
+      "type": "string"
+    },
+    "course_specialization": {
+      "type": "string"
+    },
+    "city_id": {
+      "type": "string"
+    },
+    "state_id": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "source": {
+      "type": "string"
+    },
+    "is_working": {
+      "type": "boolean"
+    },
+    "qualification": {
+      "type": "string"
+    }
+  }
+}

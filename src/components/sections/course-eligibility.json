@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_course_eligibilities",
+  "info": {
+    "displayName": "course_eligibility"
+  },
+  "options": {},
+  "attributes": {
+    "eligibility": {
+      "type": "string"
+    }
+  }
+}

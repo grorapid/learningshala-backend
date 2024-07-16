@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_colleges",
+  "info": {
+    "singularName": "top-college",
+    "pluralName": "top-colleges",
+    "displayName": "Top Colleges"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "universities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::university.university"
+    }
+  }
+}

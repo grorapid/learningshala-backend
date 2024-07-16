@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_course_admission_processes",
+  "info": {
+    "displayName": "admission_process",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "admissioncontent": {
+      "type": "richtext"
+    }
+  }
+}

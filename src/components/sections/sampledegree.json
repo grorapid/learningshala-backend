@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_sampledegrees",
+  "info": {
+    "displayName": "sampledegree"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

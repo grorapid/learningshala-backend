@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_atoms_features",
+  "info": {
+    "displayName": "features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

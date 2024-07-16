@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_mol_testimonial_text_cards",
+  "info": {
+    "displayName": "Testimonial_text_card"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.testimonial-card-text"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.typography"
+    }
+  }
+}

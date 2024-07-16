@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_exampatterns",
+  "info": {
+    "displayName": "exampattern"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

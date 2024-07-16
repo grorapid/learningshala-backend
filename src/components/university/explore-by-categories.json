@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_university_explore_by_categories",
+  "info": {
+    "displayName": "explore-by-categories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
