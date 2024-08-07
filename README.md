@@ -1,57 +1,47 @@
-# 🚀 Getting started with Strapi
+# Learningshala CMS - Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+Welcome to the backend repository of the Learningshala CMS! (It was supposed to go live on Learningshala or Skollege)
 
-### `develop`
+## Overview
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+This repository contains the backend code for the Courses and Universities CMS built for Learningshala. It utilizes **Strapi**, a powerful headless CMS, to manage content efficiently. This backend repository can help with scaling headless CMS with SEO optimised content and then later converted to full fledged product too as per the changing needs to provide personalised experience to end users.
 
-```
-npm run develop
-# or
-yarn develop
-```
+## Background
 
-### `start`
+We were the technology firm that built the entire CMS for Learningshala (Complete Design & Development). Unfortunately, the payment for our work was not completed by the co-founders, Devesh Singh and Aashish Singh. To promote transparency and contribute to the community, we decided to open source this project.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+## Technology Stack
 
-```
-npm run start
-# or
-yarn start
-```
+- **Strapi**: A flexible, open-source headless CMS that makes it easy to manage and distribute content.
+- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **PostgreSQL**: The database used for storing content and configurations.
 
-### `build`
+## Installation
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+To set up the backend locally, follow these steps:
 
-```
-npm run build
-# or
-yarn build
-```
+1. **Clone the Repository**
 
-## ⚙️ Deployment
+   ```bash
+   git clone https://github.com/grorapid/learningshala-backend.git
+   cd learningshala-backend
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+2. **Install Dependencies**
 
-## 📚 Learn more
+   ```bash
+   npm install
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+3. **Configure Environment Variables**
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+   Create a .env file in the root directory and add your environment variables. Refer to .env.example for the necessary variables.
+   
 
-## ✨ Community
+5. **Run the Application**
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+   ```bash
+   npm run develop
 
----
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## Contact
+For any questions or more information, feel free to reach out at hello[at]grorapid.com.
+
